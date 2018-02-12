@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-
 def readColumn(x):
     df = pd.read_csv('C:/Users/ShravaniVadlamudi/Downloads/testset.csv', usecols = [x])
     return df[:5]
